@@ -1,8 +1,3 @@
-/*
- * File: 0-positive_or_negative.c
- * Auth: Axa Desi
- */
-
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
@@ -10,6 +5,7 @@
 /*
   * main - Check if number.
   * @void: Null valu
+  *
   * Description:state whathr is positive, negative or zero
   * Return: Always 0.
   */
