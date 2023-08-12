@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  * @void: Null valu
@@ -28,3 +29,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+}
