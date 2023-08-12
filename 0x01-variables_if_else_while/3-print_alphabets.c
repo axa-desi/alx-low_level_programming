@@ -1,30 +1,21 @@
- /*
-  * File: 2-print_alphabet.c
-  * Auth: Axa Desi
-  */
-  #include <stdio.h>
-  
+#include <stdio.h>
+
    /**
-    * main - Prints the alphabet in uppercase.
+    * main - Entry point
+    * @void: Null value
     *
+    * Description: Prints the alphabet in uppercase.
     * Return: Always 0
     */
+
 int main(void)
 {
-	char c = 'a';
-	while (c <= 'Z')
-	{
-		putchar(c)
-			c++;
-	}
-	c = 'A';
+	char c, b;
 
-	while (c <= 'Z')
-	{
+	for (c = 'a'; c <= 'z'; c++)
 		putchar(c);
-		c++;
-	}
-	
+	for (b = 'A'; b <= 'Z'; b++)
+		putchar(b);
 	putchar('\n');
-	return (0)
+	return (0);
 }
