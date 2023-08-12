@@ -1,7 +1,7 @@
 #include <stdio.h>
-  
    /**
-    * main - entry point.
+    * main - Entry point.
+    * @void: Null value
     * Description : Print alphoabert lowercase except q and e 
     * Return: Always 0
     */
