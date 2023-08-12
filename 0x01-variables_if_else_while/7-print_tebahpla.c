@@ -5,7 +5,7 @@
  * @void: Null value
  *
  * Description: Print alphabet in reverse
- * Return: 0
+ * Return: Zero value
  */
 
 int main(void)
