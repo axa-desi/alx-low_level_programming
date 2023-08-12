@@ -8,14 +8,16 @@
 #include <stdio.h>
 
 /**
- * main - Prints the last number of a randomly generated numr
- *        and whether it is greater than 5, less than 6, or 0
+ * main - Entry point
+ * Description: Prints the last digit of the number
  *
  * Return : Alsway 0.
  */
- int main(void)
+
+int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if ((n % 10) > 5)
