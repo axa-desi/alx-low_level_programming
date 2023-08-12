@@ -2,18 +2,18 @@
 
 /**
  * main - Entry point
+ * @void: Null value
  *
- *Return: 0
+ * Description: Print alphabet in reverse
+ * Return: 0
  */
+
 int main(void)
 {
-	char a = 'z';
+	char a;
 
-	while (a >= 'a');
-	{
+	for (a = 'z'; a >= 'a'; a--)
 		putchar(a);
-		a--;
-	}
-	putchar('\n');
+	putchar('\a');
 	return (0);
 }
