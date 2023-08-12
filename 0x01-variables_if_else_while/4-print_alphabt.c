@@ -1,13 +1,14 @@
 #include <stdio.h>
   
    /**
-    * main - Prints the alphabet in lowcercse.
+    * main - entry point.
     * Description : Print alphoabert lowercase except q and e 
     * Return: Always 0
     */
-int man(void)
+int main(void)
 {
 	char c = 'a';
+
 	while (c <= 'z')
 	{
 		if (c != 'q' && c != 'e')
