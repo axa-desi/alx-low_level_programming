@@ -3,7 +3,6 @@
 /**
   * main - Entry point
   *
-  * Description: print number of base 10 form 0
   * Return: Always 0
   */
 int main(void)
