@@ -9,8 +9,9 @@
 
 /**
  * main - Entry point
- * Description: Prints the last digit of the number
+ * @void: Null value
  *
+ * Description: Prints the last digit of the number
  * Return : Alsway 0.
  */
 
