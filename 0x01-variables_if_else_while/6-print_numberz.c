@@ -7,15 +7,13 @@
  * Description: print m=numbers in base 10
  * Return: Always 0
  */
+
 int main(void)
 {
-	int i = '0';
+	int z;
 
-	while (i < 10)
-	{
-		putchar(i);
-		i++;
-	}
+	for (z = '0'; z <= '9'; z++)
+		putchar(z);
 	putchar('\n');
 	return (0);
 }
