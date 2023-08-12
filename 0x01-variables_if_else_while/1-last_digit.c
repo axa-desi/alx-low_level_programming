@@ -1,7 +1,7 @@
-/*
-  * File: 1-last_digit.c
-  * Auth: Axa Desi
-*/
+ /*
+ * File: 1-last_digit.c
+ * Auth: Axa Desi
+ */
 
 #include <stdlib.h>
 #include <time.h>
@@ -11,7 +11,7 @@
  * main - Prints the last number of a randomly generated numr
  *        and whether it is greater than 5, less than 6, or 0
  *
- * Retiurn : Alsway 0.
+ * Return : Alsway 0.
  */
  int main(void)
 {
