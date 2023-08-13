@@ -10,10 +10,12 @@ int main(void)
 {
 	int y = 0;
 	int t;
+	int count = 0;
 
-	for (y = 0; y <= 99; y++)
+	while (y <= 98)
 	{
-		for (t = y + 1; t <= 99; t++)
+		t = y + 1;
+		while (t <= 99)
 		{
 			putchar((y / 10) + '0');
 			putchar((y % 10) + '0');
@@ -21,12 +23,15 @@ int main(void)
 			putchar((t / 10) + '0');
 			putchar((t % 10) + '0');
 
-			if (y < 98 || t < 99)
+			if (count != 4949)
 			{
 				putchar(',');
 				putchar(' ');
 			}
+			t++;
+			count++;
 		}
+		y++;
 	}
 	putchar('\n');
 	return (0);
