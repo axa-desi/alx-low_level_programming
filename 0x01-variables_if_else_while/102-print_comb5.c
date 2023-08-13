@@ -1,4 +1,4 @@
-/**
+/*
  * main- Entry point
  * @void: Null value
  *
@@ -8,31 +8,25 @@
 
 int main(void)
 {
-	int y = 0;
-	int t;
-	int count = 0;
+	int digit1, digit2;
 
-	while (y <= 98)
+	for (digit1 = 0; digit1 <= 98; digit1++)
 	{
-		t = y + 1;
-		while (t <= 99)
+		for (digit2 = digit1 + 1; digit2 <= 99; digit2++)
 		{
-			putchar((y / 10) + '0');
-			putchar((y % 10) + '0');
-			putchar(' ');
-			putchar((t / 10) + '0');
-			putchar((t % 10) + '0');
+			putchar((digit1 / 10) + '0');
+			putchar((digit1 % 10) + '0');
+			putchar(32);
+			putchar((digit2 / 10) + '0');
+			putchar((digit2 % 10) + '0');
 
-			if (count != 4949)
+			if (digit1 / 10 != 9 || digit1 % 10 != 8)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(44);
+				putchar(32);
 			}
-			t++;
-			count++;
 		}
-		y++;
 	}
-	putchar('\n');
+	putchar(10);
 	return (0);
 }
