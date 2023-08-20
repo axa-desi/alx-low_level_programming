@@ -2,6 +2,8 @@
 
 /**
  * main - entry point
+ *
+ * Description: This function prints the alphabet 10 times, with each letter on a new line
  * Return: Always 0
  */
 
