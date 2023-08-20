@@ -5,6 +5,7 @@
  * Desc: it print alphabet in lowercase
  * Return: Always zero.
  */
+
 void print_alphabet(void)
 {
 	char c;
