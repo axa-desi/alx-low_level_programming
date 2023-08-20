@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * Description: This function prints the alphabet 10 times, with each letter on a new line
+ * Description: This prints alphabet 10 times on a new line
  * Return: Always 0
  */
 
