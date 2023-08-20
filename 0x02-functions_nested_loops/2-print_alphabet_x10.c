@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * main - Print alphabet_x10
  *
  * Description: This prints alphabet 10 times on a new line
  * Return: Always 0
  */
-
 void print_alphabet_x10(void)
 {
 	char f;
