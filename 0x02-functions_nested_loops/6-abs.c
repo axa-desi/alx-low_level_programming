@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-* _abs prints the absolute value of a number
-* @dscr: number targeted
+* main - print
+* @dscr: print number targeted
 * Return: returns 0
 */
 int _abs(int i)
