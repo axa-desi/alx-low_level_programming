@@ -2,6 +2,7 @@
 
 /**
  * _put - write to print a string the new line to stdout
+ *
  * @str: the string to print
  * Return: always 0
  */
