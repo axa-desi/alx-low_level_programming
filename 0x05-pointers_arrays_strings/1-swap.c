@@ -8,6 +8,7 @@
  * Return: Always 0
  */
 void swap_int(int *a, int *b);
+/* function that swaps value of two integers. */
 {
 	int work;
 
