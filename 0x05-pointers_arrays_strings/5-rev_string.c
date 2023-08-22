@@ -7,25 +7,17 @@
  * Return: always 0
  */
 void rev_string(char *s)
-	{
-	int a, len;
+{
+	int len = 0, guy = 0;
 
-	char *begin, *end = s;
+	char tmp;
 
-	for (a = 0; s[a] != '\0' && s[a + 1] != '\0'; a++)
+	while (s[guy++])
+		len++;
+	for (guy = len -1; guy >= len / 2; guy--)
 	{
-		end++;
+		tmp = s[guy];
+		s[guy] = s[len - guy -1];
+		s[len - guy - 1] =tmp;
 	}
-	len = a + 1;
-	begin = s;
-	for (a = 0; a < len / 2; a++)
-	{
-		char x;
-		x = *end;
-		*end = *begin;
-		*begin = x;
-		begin++;
-		end--;
-	}
-	end[len + 1] = '\0';
 }
