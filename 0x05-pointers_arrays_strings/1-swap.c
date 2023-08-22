@@ -9,10 +9,11 @@
  */
 void swap_int(int *a, int *b);
 /* function that swaps value of two integers. */
+void swap_int(int *a, int *b)
 {
-	int work;
+	int changed;
 
-	work = *a;
+	changed = *a;
 	*a = *b;
-	*b = work;
+	*b = changed;
 }
