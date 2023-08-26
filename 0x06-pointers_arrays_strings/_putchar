@@ -1,0 +1,10 @@
+#include <unistd.h>
+
+/**
+ * _putchar - writes the character c to stdout
+ *@c: characters to print
+ *
+ * Return: 1 on success and -1 for error, error is set appropriately
+ */
+
+
