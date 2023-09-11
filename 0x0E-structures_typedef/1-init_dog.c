@@ -1,6 +1,7 @@
 #include "dog.h"
 /**
- *int_dog -ints avariable of dog type
+ * int_dog -ints a variable of
+ *type dog
  *@d: dog identification
  *@name: name of dog
  *@age: age of dog
