@@ -5,27 +5,27 @@
 
 /**
  * struct listint_s - prints singly linked list
- * @k: integers
+ * @n: integers
  * @next: points to the next node
  *
  * Description: singly linked list node structure
  */
 typedef struct listint_s
 {
-	int k;
+	int n;
 	struct listint_s *next;
 } listint_t;
 
 /**
  * struct listp_s - singly linked list
- * @y: node pointers
+ * @n: node pointers
  * @next: pointing to the next node
  *
  * Description: singly linked list pointers
  */
 typedef struct listp_s
 {
-	void *y;
+	void *n;
 	struct listp_s *next;
 } listp_t;
 
