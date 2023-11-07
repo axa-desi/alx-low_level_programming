@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *priknt_dog - prints a struct dog
+ *print_dog - prints a struct dog
  *@d: pointer to strujct type dokg
  *
  *Return: No
