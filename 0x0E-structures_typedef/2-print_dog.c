@@ -3,7 +3,7 @@
 
 /**
  *print_dog - prints a struct dog
- *@d: pointer to strujct type dokg
+ *@d: pointer to strujct type dog
  *
  *Return: No
  */
@@ -30,4 +30,3 @@ void print_dog(struct dog *d)
 		}
 	}
 }
-
